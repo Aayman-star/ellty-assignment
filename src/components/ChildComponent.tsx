@@ -27,7 +27,7 @@ const ChildComponent = () => {
       </div>
       <hr className="border-t-[0.7px] border-[#CDCDCD] w-[85%]" />
       {pages.map((page, i) => (
-        <PageNumbers {...page} />
+        <PageNumbers key={page.id} {...page} />
       ))}
 
       <hr className="border-t-[0.7px] border-[#CDCDCD] w-[85%]" />
