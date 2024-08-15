@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       boxShadow: {
-        "shadow-default": "0 8px 15px rgba(20, 20, 20, 0.12)",
-        "shadow-hover": "0 0 4px rgba(20, 20, 20, 0.14) ",
+        "shadow-default": "0 0 4px rgba(20, 20, 20, 0.12)",
+        "shadow-hover": "0 8px 15px rgba(20, 20, 20, 0.14) ",
         //
       },
     },
