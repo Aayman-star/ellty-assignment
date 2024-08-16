@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import PageNumbers from "./PageNumbers";
 import Image from "next/image";
-import checkmark from "../../public/assets/checkmark.png";
+import checkmark from "../../public/assets/checkmark1.png";
 
 const ChildComponent = () => {
   /**State Variable to check if the checkbox is checked or unchecked */

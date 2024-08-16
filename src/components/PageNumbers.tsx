@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import checkmark from "../../public/assets/checkmark.png";
+import checkmark from "../../public/assets/checkmark1.png";
 interface PageProps {
   id: number;
   title: string;
