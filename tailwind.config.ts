@@ -18,6 +18,7 @@ const config: Config = {
         "btn-default": "#FFCE22",
         "btn-hover": "#FFD84D",
         "border-color": "#CDCDCD",
+        "color-checked": "#2469F6",
       },
     },
   },
