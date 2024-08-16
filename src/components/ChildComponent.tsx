@@ -45,7 +45,7 @@ const ChildComponent = () => {
       <hr className="border-t-[0.7px] border-[#CDCDCD] w-[21.25rem]" />
       {/* div for button */}
       <div className="w-[370px] h-[3.75rem] py-10 grid place-content-center">
-        <button className="w-[340px] h-10 rounded bg-btn-default hover:bg-btn-hover text-text-color">
+        <button className="w-[340px] h-10 rounded text-sm bg-btn-default hover:bg-btn-hover text-text-color">
           Done
         </button>
       </div>
