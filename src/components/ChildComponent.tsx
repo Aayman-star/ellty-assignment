@@ -31,7 +31,7 @@ const ChildComponent = () => {
             className={`appearance-none w-[1.440rem] h-[1.440rem] rounded-md border-[1px] border-border-color checked:bg-color-checked checked:border-none`}
           />
           {/* This div is created to style the checkmark after the checkbox is checked */}
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div className="absolute inset-0 flex flex-col items-center justify-center p-[0.125rem] pointer-events-none">
             <Image
               src={checkmark}
               alt="checkmark"
