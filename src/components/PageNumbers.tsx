@@ -22,7 +22,7 @@ const PageNumbers = ({ id, title }: PageProps) => {
           type="checkbox"
           checked={isChecked}
           onChange={handleCheckboxChange}
-          className={`appearance-none w-[1.440rem] h-[1.440rem] rounded-md shadow-inner border-[1px] border-border-color checked:bg-color-checked`}
+          className={`appearance-none w-[1.440rem] h-[1.440rem] rounded-md shadow-inner border-[1px] border-border-color checked:bg-color-checked checked:border-none`}
         />
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <Image
