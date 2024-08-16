@@ -17,15 +17,15 @@ const ChildComponent = () => {
   return (
     <div className="w-[370px]  mx-auto mt-[5.3125rem] rounded-md shadow-shadow-default flex flex-col items-center border-[1px] border-[#EEEEEE] hover:shadow-shadow-hover">
       <div className="w-full h-[2.6255rem] flex items-center justify-between p-8">
-        <p className="text-sm">All pages</p>
+        <p className="text-sm text-text-color">All pages</p>
         <input
           type="checkbox"
           checked={isChecked}
           onChange={handleCheckboxChange}
-          className={`appearence-none w-[1.440rem] h-[1.440rem] rounded-md border-[1px] border-[#CDCDCD] `}
+          className={`appearence-none w-[1.440rem] h-[1.440rem] rounded-md border-[1px] border-border-color `}
         />
       </div>
-      <hr className="border-t-[0.7px] border-[#CDCDCD] w-[21.25rem]" />
+      <hr className="border-t-[0.7px] border-border-color w-[21.25rem]" />
       {pages.map((page, i) => (
         <PageNumbers key={page.id} {...page} />
       ))}
@@ -33,7 +33,7 @@ const ChildComponent = () => {
       <hr className="border-t-[0.7px] border-[#CDCDCD] w-[21.25rem]" />
       {/* div for button */}
       <div className="w-[370px] h-[3.75rem] py-10 grid place-content-center">
-        <button className="w-[340px] h-10 rounded bg-[#FFCE22] hover:bg-[#FFD84D]">
+        <button className="w-[340px] h-10 rounded bg-btn-default hover:bg-btn-hover text-text-color">
           Done
         </button>
       </div>

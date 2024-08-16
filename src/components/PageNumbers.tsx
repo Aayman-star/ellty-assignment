@@ -14,7 +14,7 @@ const PageNumbers = ({ id, title }: PageProps) => {
     <div
       key={id}
       className="w-full h-[2.6255rem] flex items-center justify-between p-8">
-      <p className="text-sm">{title}</p>
+      <p className="text-sm text-text-color">{title}</p>
       <input
         type="checkbox"
         checked={isChecked}

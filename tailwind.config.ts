@@ -13,6 +13,12 @@ const config: Config = {
         "shadow-hover": "0 8px 15px rgba(20, 20, 20, 0.14) ",
         //
       },
+      colors: {
+        "text-color": "#1F2128",
+        "btn-default": "#FFCE22",
+        "btn-hover": "#FFD84D",
+        "border-color": "#CDCDCD",
+      },
     },
   },
   plugins: [],
