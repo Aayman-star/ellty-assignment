@@ -1,13 +1,17 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import checkmark from "../../public/assets/checkmark1.png";
 interface PageProps {
   id: number;
   title: string;
+  AllChecked?: boolean;
 }
-const PageNumbers = ({ id, title }: PageProps) => {
-  const [isChecked, setIsChecked] = useState(false);
+const PageNumbers = ({ id, title, AllChecked }: PageProps) => {
+  useEffect(() => {
+    setIsChecked(AllChecked ?? false);
+  }, [AllChecked]);
+  const [isChecked, setIsChecked] = useState(AllChecked ? true : false);
 
   const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setIsChecked(event.target.checked);

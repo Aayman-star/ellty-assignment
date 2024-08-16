@@ -43,7 +43,11 @@ const ChildComponent = () => {
       <hr className="border-t-[0.7px] border-border-color w-[21.25rem]" />
       {/*  Mapping over the pages array to render reach item,this helps maintain the individual state of the component*/}
       {pages.map((page, i) => (
-        <PageNumbers key={page.id} {...page} />
+        <PageNumbers
+          key={page.id}
+          {...page}
+          AllChecked={isChecked ? true : false}
+        />
       ))}
 
       <hr className="border-t-[0.7px] border-[#CDCDCD] w-[21.25rem]" />
